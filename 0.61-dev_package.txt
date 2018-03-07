@@ -1,0 +1,27 @@
+../sandstorm app/0.61-dev.spk
+Calling 'vagrant' 'ssh' '-c' 'cd /opt/app/.sandstorm/ && spk pack --keyring=/host-dot-sandstorm/sandstorm-keyring --pkg-def=/opt/app/.sandstorm/sandstorm-pkgdef.capnp:pkgdef /home/vagrant/sandstorm-package.spk && spk verify --details /home/vagrant/sandstorm-package.spk && mv /home/vagrant/sandstorm-package.spk /opt/app/sandstorm-package.spk' in /Users/peter/git_Project/PDIS/Rocket.Chat/.sandstorm
+ju1kvq90sv9vshju8crnjfu4nm85ur1xvq0mkp7cmh5237xwe35h
+{ "appId": "ju1kvq90sv9vshju8crnjfu4nm85ur1xvq0mkp7cmh5237xwe35h",
+  "packageId": "b934767edd8e6aa761d1807d2f442b21",
+  "title": {"defaultText": "Rocket.Chat(PDIS)"},
+  "version": 63,
+  "marketingVersion": {"defaultText": "0.61.0-develop"},
+  "authorPgpKeyFingerprint": "8F5320CC1899F269D5C6878992D18820C1687B45",
+  "metadata": {
+    "icons": {"appGrid": {"svg": LargeTextBlob(2509)}, "grain": {"svg": LargeTextBlob(1706)}, "market": {"svg": LargeTextBlob(1914)}},
+    "website": "https:\/\/rocket.chat",
+    "codeUrl": "https:\/\/github.com\/RocketChat\/Rocket.Chat",
+    "license": {"openSource": "mit"},
+    "categories": ["communications", "productivity", "office", "social", "developerTools"],
+    "author": {"contactEmail": "team@rocket.chat", "pgpSignature": LargeDataBlob(447), "upstreamAuthor": "Rocket.Chat"},
+    "pgpKeyring": LargeDataBlob(1241),
+    "description": {"defaultText": LargeTextBlob(281)},
+    "shortDescription": {"defaultText": "Chat app"},
+    "screenshots": [
+      {"width": 1024, "height": 696, "png": LargeDataBlob(40830)},
+      {"width": 1024, "height": 696, "png": LargeDataBlob(60942)},
+      {"width": 1024, "height": 696, "png": LargeDataBlob(71990)},
+      {"width": 1024, "height": 696, "png": LargeDataBlob(219976)} ],
+    "changeLog": {"defaultText": "### FIRST Sandstorm VERSION of Rocket.Chat\n"} } }
+Connection to 127.0.0.1 closed.
+package produced at ../sandstorm app/0.61-dev.spk
