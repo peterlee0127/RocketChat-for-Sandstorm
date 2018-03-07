@@ -24,6 +24,11 @@ db.grains.update({_id: "<your-grain-id>"}, {$set: {appId: "<new-app-id>", packag
 
 ```
 ## Update to 0.61-dev 
+
+new appId: ju1kvq90sv9vshju8crnjfu4nm85ur1xvq0mkp7cmh5237xwe35h  
+
+new packageId: b934767edd8e6aa761d1807d2f442b21  
+
 ```
 db.grains.update({_id: "<your-grain-id>"}, {$set: {appId: "ju1kvq90sv9vshju8crnjfu4nm85ur1xvq0mkp7cmh5237xwe35h", packageId: "b934767edd8e6aa761d1807d2f442b21"}})
 ```
