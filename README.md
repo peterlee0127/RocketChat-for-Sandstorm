@@ -35,3 +35,13 @@ db.grains.update({_id: "<your-grain-id>"}, {$set: {appId: "ju1kvq90sv9vshju8crnj
     
     
 ![](screen/01.png)
+<hr>
+
+## Open the powerbox for Mobile Push
+Sandstorm mobile push notification send push message to [RockeChat Push Gateway](https://gateway.rocket.chat). Sandstorm need permission to send payload through the Sandstorm. User need to request permission on Sandstorm. 
+
+![](screen/02.png)
+
+1: Press the powerbox button.
+![](screen/03.png)
+2: Select to use https://gateway.rocket.chat
